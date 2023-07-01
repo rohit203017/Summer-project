@@ -1,0 +1,356 @@
+*{padding: 0; margin: 0; box-sizing: border-box; font-family: sans-serif;}
+header{
+    font-family: sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('background\ image2.jpg.crdownload');
+    background-size: cover;
+    position: relative;
+}
+.info{
+    color: white;
+    font-size: 20px;
+    padding: 20px 70px;
+    cursor: pointer;
+}
+.info span{
+    margin: 0 10px;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    padding: 0 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: white;
+    font-size: 2em;
+    font-family: normal;
+    letter-spacing: 2px;
+}
+.logo i{
+    color: #e88;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    font-size: 20px;
+    transition: 0.4s;
+}
+.menu a:last-child{
+    background: #e88;
+    border-radius: 8px;
+}
+.menu a:hover{
+    background: #e88;
+    border-radius: 8px;
+}
+.box{
+    background: white;
+    width: 450px;
+    height: 455px;
+    position: absolute;
+    top: 25%;
+    right: 1%;
+    padding: 30px;
+}
+form{
+    width: 100%;
+}
+form input[type="text"]{
+    width: 100%;
+    padding: 20px 10px;
+    margin: 10px 0px;
+    outline: none;
+    border: none;
+    background: rgba(0,0,0,0.1);
+}
+form input[type="submit"]{
+    width: 100%;
+    padding: 20px 10px;
+    margin: 10px 0px;
+    outline: none;
+    border: none;
+    background: #e88;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+form input[type="submit"]:hover{
+    background: transparent;
+    border: 1px solid grey;
+    color: black;
+}
+.box span{
+    color: #e88;
+    cursor: pointer;
+}
+.htext{
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    max-width: 600px;
+    color: white;
+}
+.htext h1{
+    font-size: 2em;
+}
+.htext h2{
+    font-size: 4em;
+}
+.htext span{
+    color: #e88;
+}
+.htext p{
+    margin: 15px 0;
+    line-height: 2em;
+    color: white;
+}
+.htext a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.htext a:hover{
+    background: #e88;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: white;
+}
+.about img{
+    height: auto;
+    width: 450px;
+    
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: #e88;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+h5 span{
+    color: #e88;
+}
+.about-text p{
+    color:black ;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 45px;
+
+}
+button{
+    background-color: #e88;
+    color:black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #e88;
+    cursor: pointer;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .column {
+    width: 100%;
+    padding: 0 1em 1em 1em;
+    text-align: center;
+  }
+  .card {
+    width: 100%;
+    height: 100%;
+    padding: 2em 1.5em;
+    background: linear-gradient(#ffffff 50%, #e88 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1f194c;
+    margin: 1em 0;
+  }
+  p {
+    color: #575a7b;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+  }
+  .icon-wrapper {
+    background-color: #e88;
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+  }
+  .icon-wrapper i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: black;
+    width: auto;
+  }
+  .card:hover {
+    background-position: 0 100%;
+  }
+  .card:hover .icon-wrapper {
+    background-color: #ffffff;
+    color: #2c7bfe;
+  }
+  .card:hover h3 {
+    color: #ffffff;
+  }
+  .card:hover p {
+    color: #f0f0f0;
+  }
+  @media screen and (min-width: 768px) {
+    section {
+      padding: 0 2em;
+    }
+    .column {
+      flex: 0 50%;
+      max-width: 50%;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    section {
+      padding: 1em 3em;
+    }
+    .column {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+    }
+  }
+
+.contact-us{
+    width: 100%;
+    height: 290px;
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-us p{
+    color: #e88;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact-us .button-two{
+    background-color: #e88;
+    color:black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    transition: 0.4s;
+
+}
+.contact-us .button-two:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+}
+footer{
+    position:relative;
+    width: 100%;
+    height: 400px;
+    background: #e88;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}   
+footer p:nth-child(1) {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height:26px;
+
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #e88;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+.end{
+    position: absolute;
+    color: white;
+    bottom:35px ;
+    font-size: 14px;
+}
